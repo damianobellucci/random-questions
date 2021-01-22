@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "assert": "^2.0.0",
+    "fs": "^0.0.1-security"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "nodemon node index.js"
+  }
+}
