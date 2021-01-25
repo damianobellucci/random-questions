@@ -1,3 +1,4 @@
+***1)Introduzione alla crittografia
 -tipi di attaccante
 -principio kerkchoff
 -cifrario cesare
@@ -7,11 +8,13 @@
 -cifrario di Vigenére (sostituzione polialfabetica)
 -morale cifrari storici
 -cifrari storici
+***2)La sicurezza perfetta
 -limiti sicurezza perfetta
 -definizione sicurezza perfetta e i lemmi derivati
 -cifrario vernam (one time pad)
 -limitazioni generali schemi di codifica perfettamente sicuri (teorema)
 -codifiche perfettamente indistinguibili (Def) con teorema che lo collega a sicurezza perfetta
+***3)La sicurezza perfetta
 -rilassamento sicurezza perfetta
 -def avversario efficiente
 -parametro di sicurezza n
@@ -26,7 +29,7 @@
 -generatore pseudocasuale def
 -considerazioni sui generatori pseudocasuali
 -gestione messaggi a lunghezza variabile
--schema indotto da un GP: pigrecoG def  e teorema annesso con --dimostrazione
+-schema indotto da un GP: pigrecoG def  e teorema annesso con dimostrazione
 -gestione messaggi a lunghezza variabile
 -generatore pseudocasuale a lunghezza variable def
 -codifiche multiple privk^mult e suo lemma con schema pigreco^G
@@ -43,6 +46,7 @@
 -gestione messaggi a lunghezza variabile in pigrecoF contro attacchi CPA e relativo teorema
 -permutazioni pseudocasuali
 -modi operativi ECB CBC OFB CTR
+***4)Schemi codifica a chiave segreta
 -mac equivalente su autenticità di cifrario pigreco per confidenzialità
 -costituzione mac
 -macforgeA,pigreco(n)
@@ -52,7 +56,7 @@
 -se F pseudocasuale, allora mac pigrecoF è sicuro
 -messaggi a lunghezza variabile in MAC
 -se pigreco è sicuro, anche pigreco* è sicuro
--CBC-MAC con suo teorema di sicureza,
+-CBC MAC con suo teorema di sicureza,
 -se l è un polinomio e F è FP, allora pigrecoCBC è un mac sicuro
 -funzioni hash(Def)
 -hashcollA,pigreco(n)
@@ -62,6 +66,7 @@
 -trasformazione di merkle damgard
 -per cosa ci servono le funzioni hash?
 -th se pigreco è mac sicuro e funzione hash è resistente alle collisioni, allora pigrecoH è sicuro
+***5)Costruire oggetti pseudocasuali e funzioni hash in concreto
 -cifrari flusso
 -registro a scorrimento retroazione lineare
 -init e getbit
@@ -73,6 +78,7 @@
 -AES
 -costruzione davies meyer
 -md5 sha1 sha2 sha3
+***6)Costruire oggetti pseudocasuali e funzioni hash in astratto
 -funzioni one way def
 -predicati hardcore (def)
 -th goldreich levin

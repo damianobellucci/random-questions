@@ -10,4 +10,4 @@ let port = process.env.PORT;
 if (port == null || port == "") {
     port = 5000;
 }
-app.listen(process.env.PORT, console.log("listening on port 5000"))
+app.listen(port, console.log(`listening on port ${port}`))
