@@ -32,7 +32,8 @@ router.get('/', (req, res) => {
         let idxChapter = randomInteger(totChapters - 1)
         let idxQuestion = randomInteger(dataObject[idxChapter].listQuestions.length - 1)
         let question = dataObject[idxChapter].listQuestions[idxQuestion]
-        res.status(200).send(question)
+	let resObject = {"text":question}
+        res.status(200).send(resObject)
     }
     catch (e) {
         res.status(500).send("error")
